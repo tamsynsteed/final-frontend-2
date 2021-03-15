@@ -24,7 +24,6 @@ function signup() {
 }
 
 function addBooking() {
-  let retrieveObject = JSON.parse(localStorage.getItem("booking"));
   const addBooking = {
     user_id: user.person_id,
     hotel_id: hotel.id,
@@ -53,8 +52,3 @@ function addBooking() {
     })
     .catch((e) => alert(e));
 }
-
-
-
-
-

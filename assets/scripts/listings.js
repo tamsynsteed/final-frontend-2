@@ -3,7 +3,7 @@ function getPosts() {
   let list = document.getElementById("hotel");
 
   // Fetch the data
-  fetch("https://blooming-fjord-31092.herokuapp.com/view")
+  fetch("https://blooming-fjord-31092.herokuapp.com/view/")
     .then((response) => response.json())
     .then((json) => {
       console.log(json);

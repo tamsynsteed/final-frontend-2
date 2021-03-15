@@ -28,7 +28,7 @@ function uploadListing() {
       document.getElementById("uploadForm").reset();
       let show = document.getElementById("show-data");
 
-      show.innerHTML += `<button onclick='showData();'><a href="https://blooming-fjord-31092.herokuapp.com/view" target="_blank">Show data</a></button>`;
+      show.innerHTML += `<button onclick='showData();'><a href="https://blooming-fjord-31092.herokuapp.com/view/" target="_blank">Show data</a></button>`;
     });
 }
 
