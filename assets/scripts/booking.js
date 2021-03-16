@@ -5,7 +5,7 @@ let user = JSON.parse(localStorage.getItem("user"));
 console.log(user);
 
 let storedBooking = JSON.parse(localStorage.getItem("booking"));
-if (!storedBooking) {
+if (!storedBooking && window.location.pathname !== "/booking.html") {
   window.location.href = "./listing.html";
 }
 
